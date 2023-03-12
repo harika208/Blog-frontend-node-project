@@ -16,7 +16,7 @@ function Bollywood() {
 
   const [Bollydata, setBollydata] = useState([])
   useEffect(() => {
-    const url = "https://react-backend-blog.onrender.com/Bollywood"
+    const url = "https://blog-backend-application.onrender.com/bollywood"
     // const url = "http://localhost:4500/bollywood"  
     fetch(url).then(res => res.json())
       .then(res => setBollydata(res))

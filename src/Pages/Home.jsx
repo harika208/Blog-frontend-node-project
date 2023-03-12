@@ -17,7 +17,7 @@ function Home() {
 
     const [Homedata, setHomedata] = useState([])
     useEffect(() => {
-     const url = "https://react-backend-blog.onrender.com/Home"
+     const url = "https://blog-backend-application.onrender.com/home"
     //   const url = "http://localhost:4500/home"
       fetch(url).then(res => res.json())
         .then(res => setHomedata(res))

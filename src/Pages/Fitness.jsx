@@ -16,7 +16,7 @@ function Fitness() {
 
   const [Fitdata, setFitdata] = useState([])
   useEffect(() => {
-    const url = "https://react-backend-blog.onrender.com/Fitness"
+    const url = "https://blog-backend-application.onrender.com/fitness"
     // const url = "http://localhost:4500/fitness"
     fetch(url).then(res => res.json())
       .then(res => setFitdata(res))
